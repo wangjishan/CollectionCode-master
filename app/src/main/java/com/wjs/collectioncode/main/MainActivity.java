@@ -11,6 +11,7 @@ import com.wjs.collectioncode.base.BaseRecylerViewAdapter;
 import com.wjs.collectioncode.recyclerview.snaphelper.SnapHelperActivity;
 import com.wjs.collectioncode.utils.IntentUtils;
 import com.wjs.collectioncode.utils.UtilsLog;
+import com.wjs.collectioncode.widget.dynamicimageview.DynamicImageViewActivity;
 
 import java.util.Arrays;
 import java.util.List;
@@ -55,6 +56,9 @@ public class MainActivity extends AppCompatActivity implements BaseRecylerViewAd
         switch (position) {
             case 0:
                 IntentUtils.ToActivity(this, SnapHelperActivity.class, null);
+                break;
+            case 1:
+                IntentUtils.ToActivity(this, DynamicImageViewActivity.class, null);
                 break;
         }
 

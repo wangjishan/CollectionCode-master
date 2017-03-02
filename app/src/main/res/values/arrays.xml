@@ -2,10 +2,10 @@
 <resources>
 
 
-
     <!-- 主页的列表数据 -->
     <string-array name="mainActivity_List">
         <item>RecyclerViewSnap 横向的列表 停留于中、前、后</item>
+        <item>动态网格图片的显示</item>
     </string-array>
 
 

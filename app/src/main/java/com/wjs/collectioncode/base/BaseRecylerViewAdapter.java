@@ -30,7 +30,7 @@ public abstract class BaseRecylerViewAdapter<T> extends RecyclerView.Adapter {
     private onLongItemClickListener mLongItemClickListener;
     private List<T> mDatas;
     private int mLayoutId;
-    private View mHeadView;
+    private View mHeadView = null;
     private final static int TYPE_HEADVIEW = 100;
     private final static int TYPE_ITEM = 101;
 //    private final static int TYPE_PROGRESS=102;
