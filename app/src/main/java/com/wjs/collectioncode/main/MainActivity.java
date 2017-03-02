@@ -8,8 +8,10 @@ import android.view.View;
 
 import com.wjs.collectioncode.R;
 import com.wjs.collectioncode.base.BaseRecylerViewAdapter;
+import com.wjs.collectioncode.recyclerview.snaphelper.SnapHelperActivity;
+import com.wjs.collectioncode.utils.IntentUtils;
+import com.wjs.collectioncode.utils.UtilsLog;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -50,6 +52,11 @@ public class MainActivity extends AppCompatActivity implements BaseRecylerViewAd
     @Override
     public void onItemClick(View view, int position) {
 
+        switch (position) {
+            case 0:
+                IntentUtils.ToActivity(this, SnapHelperActivity.class, null);
+                break;
+        }
 
     }
 
