@@ -6,6 +6,7 @@
     <string-array name="mainActivity_List">
         <item>RecyclerViewSnap 横向的列表 停留于中、前、后</item>
         <item>动态网格图片的显示</item>
+        <item>BottomSheetBehavior 实现底部菜单</item>
     </string-array>
 
 
