@@ -7,6 +7,8 @@
         <item>RecyclerViewSnap 横向的列表 停留于中、前、后</item>
         <item>动态网格图片的显示</item>
         <item>BottomSheetBehavior 实现底部菜单</item>
+        <item>自定义Behavior 示例 在CoordinatorLayout中进行联动效果</item>
+        <item>自定义Behavior 示例 在CoordinatorLayout中进行联动效果2</item>
     </string-array>
 
 

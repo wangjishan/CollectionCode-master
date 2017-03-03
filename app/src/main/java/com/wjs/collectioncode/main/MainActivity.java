@@ -8,7 +8,9 @@ import android.view.View;
 
 import com.wjs.collectioncode.R;
 import com.wjs.collectioncode.base.BaseRecylerViewAdapter;
+import com.wjs.collectioncode.behavior.AvatarImageBehaviorActivity;
 import com.wjs.collectioncode.behavior.BottomSheetBehaviorActivity;
+import com.wjs.collectioncode.behavior.CustomBehaviorActivity;
 import com.wjs.collectioncode.recyclerview.snaphelper.SnapHelperActivity;
 import com.wjs.collectioncode.utils.IntentUtils;
 import com.wjs.collectioncode.utils.UtilsLog;
@@ -63,6 +65,12 @@ public class MainActivity extends AppCompatActivity implements BaseRecylerViewAd
                 break;
             case 2:
                 IntentUtils.ToActivity(this, BottomSheetBehaviorActivity.class, null);
+                break;
+            case 3:
+                IntentUtils.ToActivity(this, CustomBehaviorActivity.class, null);
+                break;
+            case 4:
+                IntentUtils.ToActivity(this, AvatarImageBehaviorActivity.class, null);
                 break;
         }
 
