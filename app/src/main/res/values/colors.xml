@@ -15,5 +15,7 @@
     <!-- colors -->
     <color name="primary">#785447</color>
     <color name="primaryDark">#5B3F36</color>
-
+    <color name="blue">#3F51B5</color>
+    <color name="gray">#999</color>
+    <color name="blue_dark">#303F9F</color>
 </resources>

@@ -7,11 +7,13 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.wjs.collectioncode.R;
+import com.wjs.collectioncode.appbarLayout.AppBarLayoutActivity;
 import com.wjs.collectioncode.base.BaseRecylerViewAdapter;
 import com.wjs.collectioncode.behavior.AvatarImageBehaviorActivity;
 import com.wjs.collectioncode.behavior.BottomSheetBehaviorActivity;
 import com.wjs.collectioncode.behavior.CustomBehaviorActivity;
 import com.wjs.collectioncode.recyclerview.snaphelper.SnapHelperActivity;
+import com.wjs.collectioncode.tablayout.TabLayoutTopActivity;
 import com.wjs.collectioncode.utils.IntentUtils;
 import com.wjs.collectioncode.utils.UtilsLog;
 import com.wjs.collectioncode.widget.dynamicimageview.DynamicImageViewActivity;
@@ -71,6 +73,12 @@ public class MainActivity extends AppCompatActivity implements BaseRecylerViewAd
                 break;
             case 4:
                 IntentUtils.ToActivity(this, AvatarImageBehaviorActivity.class, null);
+                break;
+            case 5:
+                IntentUtils.ToActivity(this, TabLayoutTopActivity.class, null);
+                break;
+            case 6:
+                IntentUtils.ToActivity(this, AppBarLayoutActivity.class, null);
                 break;
         }
 

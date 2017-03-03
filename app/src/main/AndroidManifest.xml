@@ -30,7 +30,9 @@
         <activity android:name=".widget.dynamicimageview.DynamicImageViewActivity" />
         <activity android:name=".behavior.BottomSheetBehaviorActivity" />
         <activity android:name=".behavior.CustomBehaviorActivity" />
-        <activity android:name=".behavior.AvatarImageBehaviorActivity"></activity>
+        <activity android:name=".behavior.AvatarImageBehaviorActivity" />
+        <activity android:name=".tablayout.TabLayoutTopActivity" />
+        <activity android:name=".appbarLayout.AppBarLayoutActivity"></activity>
     </application>
 
 </manifest>
