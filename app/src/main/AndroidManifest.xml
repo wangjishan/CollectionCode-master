@@ -32,7 +32,8 @@
         <activity android:name=".behavior.CustomBehaviorActivity" />
         <activity android:name=".behavior.AvatarImageBehaviorActivity" />
         <activity android:name=".tablayout.TabLayoutTopActivity" />
-        <activity android:name=".appbarLayout.AppBarLayoutActivity"></activity>
+        <activity android:name=".appbarLayout.AppBarLayoutActivity" />
+        <activity android:name=".recyclerview.dragswipe.DragSwipeActivity"></activity>
     </application>
 
 </manifest>

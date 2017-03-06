@@ -12,6 +12,7 @@ import com.wjs.collectioncode.base.BaseRecylerViewAdapter;
 import com.wjs.collectioncode.behavior.AvatarImageBehaviorActivity;
 import com.wjs.collectioncode.behavior.BottomSheetBehaviorActivity;
 import com.wjs.collectioncode.behavior.CustomBehaviorActivity;
+import com.wjs.collectioncode.recyclerview.dragswipe.DragSwipeActivity;
 import com.wjs.collectioncode.recyclerview.snaphelper.SnapHelperActivity;
 import com.wjs.collectioncode.tablayout.TabLayoutTopActivity;
 import com.wjs.collectioncode.utils.IntentUtils;
@@ -79,6 +80,9 @@ public class MainActivity extends AppCompatActivity implements BaseRecylerViewAd
                 break;
             case 6:
                 IntentUtils.ToActivity(this, AppBarLayoutActivity.class, null);
+                break;
+            case 7:
+                IntentUtils.ToActivity(this, DragSwipeActivity.class, null);
                 break;
         }
 

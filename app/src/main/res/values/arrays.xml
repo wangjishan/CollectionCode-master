@@ -11,6 +11,7 @@
         <item>自定义Behavior 示例 在CoordinatorLayout中进行联动效果2</item>
         <item>TabLayout 顶部标签页</item>
         <item>AppBarLayout 联动效果</item>
+        <item>可拖拽可滑动删除RecyclerView</item>
     </string-array>
 
 
