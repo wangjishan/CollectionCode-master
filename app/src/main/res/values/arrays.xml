@@ -12,6 +12,8 @@
         <item>TabLayout 顶部标签页</item>
         <item>AppBarLayout 联动效果</item>
         <item>可拖拽可滑动删除RecyclerView</item>
+        <item>一个用RecyclerView实现的画廊效果，被选中item居中放大，效果很自然 (大)</item>
+        <item>一个用RecyclerView实现的画廊效果，被选中item居中放大，效果很自然 (小)</item>
     </string-array>
 
 

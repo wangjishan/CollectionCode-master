@@ -33,7 +33,10 @@
         <activity android:name=".behavior.AvatarImageBehaviorActivity" />
         <activity android:name=".tablayout.TabLayoutTopActivity" />
         <activity android:name=".appbarLayout.AppBarLayoutActivity" />
-        <activity android:name=".recyclerview.dragswipe.DragSwipeActivity"></activity>
+        <activity android:name=".recyclerview.dragswipe.DragSwipeActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".recyclerview.gallery.shop.ShopActivity" />
+        <activity android:name=".recyclerview.gallery.weather.WeatherActivity"></activity>
     </application>
 
 </manifest>
