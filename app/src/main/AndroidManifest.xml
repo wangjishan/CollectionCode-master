@@ -36,7 +36,8 @@
         <activity android:name=".recyclerview.dragswipe.DragSwipeActivity" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".recyclerview.gallery.shop.ShopActivity" />
-        <activity android:name=".recyclerview.gallery.weather.WeatherActivity"></activity>
+        <activity android:name=".recyclerview.gallery.weather.WeatherActivity" />
+        <activity android:name=".widget.dynamicimageview.DynamicImageView2Activity"></activity>
     </application>
 
 </manifest>

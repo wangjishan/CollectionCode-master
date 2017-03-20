@@ -8,7 +8,7 @@ import android.widget.LinearLayout;
 
 import com.wjs.collectioncode.utils.DensityUtil;
 import com.wjs.collectioncode.utils.GlideUtils;
-import com.wjs.collectioncode.widget.dynamicimageview.ColorFilterImageView;
+import com.wjs.wjslibrary.widget.ColorFilterImageView;
 
 import java.util.List;
 

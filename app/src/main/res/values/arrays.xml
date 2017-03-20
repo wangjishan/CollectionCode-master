@@ -14,6 +14,7 @@
         <item>可拖拽可滑动删除RecyclerView</item>
         <item>一个用RecyclerView实现的画廊效果，被选中item居中放大，效果很自然 (大)</item>
         <item>一个用RecyclerView实现的画廊效果，被选中item居中放大，效果很自然 (小)</item>
+        <item>动态网格图片的显示 第二种显示方法</item>
     </string-array>
 
 

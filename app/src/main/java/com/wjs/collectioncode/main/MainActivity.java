@@ -18,6 +18,7 @@ import com.wjs.collectioncode.recyclerview.gallery.weather.WeatherActivity;
 import com.wjs.collectioncode.recyclerview.snaphelper.SnapHelperActivity;
 import com.wjs.collectioncode.tablayout.TabLayoutTopActivity;
 import com.wjs.collectioncode.utils.IntentUtils;
+import com.wjs.collectioncode.widget.dynamicimageview.DynamicImageView2Activity;
 import com.wjs.collectioncode.widget.dynamicimageview.DynamicImageViewActivity;
 
 import java.util.Arrays;
@@ -91,6 +92,9 @@ public class MainActivity extends AppCompatActivity implements BaseRecylerViewAd
                 break;
             case 9:
                 IntentUtils.ToActivity(this, WeatherActivity.class, null);
+                break;
+            case 10:
+                IntentUtils.ToActivity(this, DynamicImageView2Activity.class, null);
                 break;
         }
 
